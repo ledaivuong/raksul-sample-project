@@ -6,28 +6,28 @@
 | Automation Tag        | Scenario                                                       | Purpose                                      | Status |
 | --------------------- | -------------------------------------------------------------- | -------------------------------------------- | ------ |
 | @main                 | As a user, I can submit form                                   | Verify the main flow                         | PASS   |
-| @invalidEmail         | As a user, I get notice when I input invalid email             | Verify the email validation                  | PASS   |
-| @emptyEmail           | As a user, I get notice when I input empty email               | Verify the email validation                  | PASS   |
-| @emptyLastName        | As a user, I get notice when I input empty last name           | Verify the last name validation              | PASS   |
-| @emptyFirstName       | As a user, I get notice when I input empty first name          | Verify the first name validation             | PASS   |
-| @emptyInfoSource      | As a user, I get notice when I do not select info source       | Verify the info source validation            | PASS   |
-| @emptyAssociation     | As a user, I get notice when I do not select association       | Verify the association validation            | PASS   |
-| @emptyInterestSevices | As a user, I get notice when I do not select interest services | Verify the interest services validation      | PASS   |
-|                       | As a user, I can select multiple interest services             | Verify multilple select of interest services | PASS   |
+| @invalidEmail         | As a user, I get a notice when I input an invalid email             | Verify the email validation                  | PASS   |
+| @emptyEmail           | As a user, I get a notice when I input an empty email               | Verify the email validation                  | PASS   |
+| @emptyLastName        | As a user, I get a notice when I input an empty last name           | Verify the last name validation              | PASS   |
+| @emptyFirstName       | As a user, I get a notice when I input an empty first name          | Verify the first name validation             | PASS   |
+| @emptyInfoSource      | As a user, I get a notice when I do not select info source       | Verify the info source validation            | PASS   |
+| @emptyAssociation     | As a user, I get a notice when I do not select association       | Verify the association validation            | PASS   |
+| @emptyInterestSevices | As a user, I get a notice when I do not select interest services | Verify the interest services validation      | PASS   |
+|                       | As a user, I can select multiple interest services             | Verify multiple select of interest services | PASS   |
 
 ## Problem 2: Specification understanding and scheduling
 
 ### 2-1. Describe the question you would like to ask the stakeholder and the reason.
 1. **Question:** Could you provide a list of users who will become the Admin so the developers can grant them permission? **The reason for this question:** 
-2. **Question:** Please describle all functions and which functions can be used by General Users. **The reason for this question:** to make clear the requirement
-3. **Question:** Do we need to save the history when an Admin adds or deletes the role of other users?. **The reason for this question:** to avoid the concerns about operational errors and fraud
+2. **Question:** Please describe all functions and which functions can be used by General Users. **The reason for this question:** to make clear the requirement
+3. **Question:** Do we need to save the history when an Admin adds or deletes the role of other users? **The reason for this question:** to avoid concerns about operational errors and fraud
 
 ### 2-1. Create test perspectives and scenarios
 
 | Scenario                                            | Purpose                             |
 | --------------------------------------------------- | ----------------------------------- |
-| As a Admin, I can add Admin role to another user    | Verify the permission of Admin role |
-| As a Admin, I can delete Admin role of another user | Verify the permission of Admin role |
+| As an Admin, I can add an Admin role to another user    | Verify the permission of Admin role |
+| As an Admin, I can delete the Admin role of another user | Verify the permission of the Admin role |
 | As a Admin, I can do A                              | Verify the permission of Admin role |
 | As a Admin, I can do B                              | Verify the permission of Admin role |
 | As a Admin, I can do C                              | Verify the permission of Admin role |
