@@ -39,7 +39,7 @@ Feature: The Raksul Sample
     When I input email "abc@abc.com"
     When I click on submit button
     Then I expect the empty email validation "disappear" ""
-  
+
   @emptyLastName
   Scenario: Check empty validation for lastName
     Given I am on the page test
@@ -84,5 +84,4 @@ Feature: The Raksul Sample
     When I select services of interest "Printing"
     When I click on submit button
     Then I expect the empty interest services validation "disappear" ""
-    
 

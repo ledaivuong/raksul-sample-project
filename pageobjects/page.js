@@ -1,29 +1,28 @@
-import { browser } from '@wdio/globals';
-import { $ } from '@wdio/globals';
+import { browser } from "@wdio/globals";
+import { $ } from "@wdio/globals";
 
 /**
-* main page object containing all methods, selectors and functionality
-* that is shared across all page objects
-*/
+ * main page object containing all methods, selectors and functionality
+ * that is shared across all page objects
+ */
 export default class Page {
     /**
-    * Opens a sub page of the page
-    * @param path path of the sub page (e.g. /path/to/page.html)
-    */
-    open (path) {
+     * Opens a sub page of the page
+     * @param path path of the sub page (e.g. /path/to/page.html)
+     */
+    open(path) {
         return browser.url(`/${path}`);
     }
 
     waitForInputElement(selector) {
-        let element =  $(selector);
+        let element = $(selector);
         element.waitForEnabled();
         return element;
     }
 
     waitForClickElement(selector) {
-        let element = $(selector)
+        let element = $(selector);
         element.waitForClickable();
         return element;
     }
-
 }
