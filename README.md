@@ -3,17 +3,17 @@
 ## Problem 1: Test Cases Design and Automation Test 
 - Page test: https://raksul.github.io/recruit-qa-engineer-work-sample/
 
-| Automation Tag        | Scenario                                                       | Purpose                                      | Status |
-| --------------------- | -------------------------------------------------------------- | -------------------------------------------- | ------ |
-| @main                 | As a user, I can submit form                                   | Verify the main flow                         | PASS   |
-| @invalidEmail         | As a user, I get a notice when I input an invalid email             | Verify the email validation                  | PASS   |
-| @emptyEmail           | As a user, I get a notice when I input an empty email               | Verify the email validation                  | PASS   |
-| @emptyLastName        | As a user, I get a notice when I input an empty last name           | Verify the last name validation              | PASS   |
-| @emptyFirstName       | As a user, I get a notice when I input an empty first name          | Verify the first name validation             | PASS   |
-| @emptyInfoSource      | As a user, I get a notice when I do not select info source       | Verify the info source validation            | PASS   |
-| @emptyAssociation     | As a user, I get a notice when I do not select association       | Verify the association validation            | PASS   |
-| @emptyInterestSevices | As a user, I get a notice when I do not select interest services | Verify the interest services validation      | PASS   |
-|                       | As a user, I can select multiple interest services             | Verify multiple select of interest services | PASS   |
+| Automation Tag        | Scenario                                                         | Purpose                                     | Status |
+| --------------------- | ---------------------------------------------------------------- | ------------------------------------------- | ------ |
+| @main                 | As a user, I can submit form                                     | Verify the main flow                        | PASS   |
+| @invalidEmail         | As a user, I get a notice when I input an invalid email          | Verify the email validation                 | PASS   |
+| @emptyEmail           | As a user, I get a notice when I input an empty email            | Verify the email validation                 | PASS   |
+| @emptyLastName        | As a user, I get a notice when I input an empty last name        | Verify the last name validation             | PASS   |
+| @emptyFirstName       | As a user, I get a notice when I input an empty first name       | Verify the first name validation            | PASS   |
+| @emptyInfoSource      | As a user, I get a notice when I do not select info source       | Verify the info source validation           | PASS   |
+| @emptyAssociation     | As a user, I get a notice when I do not select association       | Verify the association validation           | PASS   |
+| @emptyInterestSevices | As a user, I get a notice when I do not select interest services | Verify the interest services validation     | PASS   |
+|                       | As a user, I can select multiple interest services               | Verify multiple select of interest services | PASS   |
 
 ## Problem 2: Specification understanding and scheduling
 
@@ -24,16 +24,16 @@
 
 ### 2-1. Create test perspectives and scenarios
 
-| Scenario                                            | Purpose                             |
-| --------------------------------------------------- | ----------------------------------- |
-| As an Admin, I can add an Admin role to another user    | Verify the permission of Admin role |
+| Scenario                                                 | Purpose                                 |
+| -------------------------------------------------------- | --------------------------------------- |
+| As an Admin, I can add an Admin role to another user     | Verify the permission of the Admin role |
 | As an Admin, I can delete the Admin role of another user | Verify the permission of the Admin role |
-| As a Admin, I can do A                              | Verify the permission of Admin role |
-| As a Admin, I can do B                              | Verify the permission of Admin role |
-| As a Admin, I can do C                              | Verify the permission of Admin role |
-| As a User, I can do A                               | Verify the permission of User role  |
-| As a User, I can do B                               | Verify the permission of User role  |
-| As a User, I can NOT do C                           | Verify the permission of User role  |
+| As an Admin, I can do A                                  | Verify the permission of the Admin role |
+| As an Admin, I can do B                                  | Verify the permission of the Admin role |
+| As an Admin, I can do C                                  | Verify the permission of the Admin role |
+| As a User, I can do A                                   | Verify the permission of the User role  |
+| As a User, I can do B                                   | Verify the permission of the User role  |
+| As a User, I can NOT do C                               | Verify the permission of the User role  |
 
 ### 2-3. Estimate the number of man-hours required for testing
 - It's difficult to estimate the time spent on testing with general descriptions like this one. Because I don't know how many functions could be applied for Admin and User. So I assume that a quite simple system with 3 functions that are only applied for Admin and 3 functions that are applied for User.
