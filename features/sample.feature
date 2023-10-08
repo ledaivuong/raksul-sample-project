@@ -23,7 +23,7 @@ Feature: The Raksul Sample
       | "abc@abc.com" | "firstNameTest" | "lastNameTest" | "Other"                 | "Logistics"         | "Other"             |
 
   @invalidEmail
-  Scenario: As a user, I get notice when I input invalid email
+  Scenario: As a user, I get a notice when I input invalid email
     Given I am on the page test
     When I input email "abc"
     Then I expect the empty email validation "display" "'email' is not a valid email"
@@ -32,7 +32,7 @@ Feature: The Raksul Sample
     Then I expect the empty email validation "disappear" ""
 
   @emptyEmail
-  Scenario: As a user, I get notice when I input empty email
+  Scenario: As a user, I get a notice when I input empty email
     Given I am on the page test
     When I click on submit button
     Then I expect the empty email validation "display" "'email' is required"
@@ -41,7 +41,7 @@ Feature: The Raksul Sample
     Then I expect the empty email validation "disappear" ""
 
   @emptyLastName
-  Scenario: As a user, I get notice when I input empty last name
+  Scenario: As a user, I get a notice when I input empty last name
     Given I am on the page test
     When I click on submit button
     Then I expect the empty lastName validation "display" "'lastName' is required"
@@ -50,7 +50,7 @@ Feature: The Raksul Sample
     Then I expect the empty lastName validation "disappear" ""
 
   @emptyFirstName
-  Scenario: As a user, I get notice when I input empty first name
+  Scenario: As a user, I get a notice when I input empty first name
     Given I am on the page test
     When I click on submit button
     Then I expect the empty firstName validation "display" "'firstName' is required"
@@ -59,7 +59,7 @@ Feature: The Raksul Sample
     Then I expect the empty firstName validation "disappear" ""
 
   @emptyInfoSource
-  Scenario: As a user, I get notice when I do not select info source
+  Scenario: As a user, I get a notice when I do not select info source
     Given I am on the page test
     When I click on submit button
     Then I expect the empty infoSource validation "display" "'infoSource' is required"
@@ -68,7 +68,7 @@ Feature: The Raksul Sample
     Then I expect the empty infoSource validation "disappear" ""
 
   @emptyAssociation
-  Scenario: As a user, I get notice when I do not select association
+  Scenario: As a user, I get a notice when I do not select association
     Given I am on the page test
     When I click on submit button
     Then I expect the empty association validation "display" "'typeOfAssociation' is required"
@@ -77,7 +77,7 @@ Feature: The Raksul Sample
     Then I expect the empty association validation "disappear" ""
 
   @emptyInterestSevices
-  Scenario: As a user, I get notice when I do not select interest services
+  Scenario: As a user, I get a notice when I do not select interest services
     Given I am on the page test
     When I click on submit button
     Then I expect the empty interest services validation "display" "'servicesOfInterest' is required"
