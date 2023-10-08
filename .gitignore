@@ -4,6 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # User-specific files
+package-lock*
 *.rsuser
 *.suo
 *.user
@@ -377,6 +378,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
+.vscode*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
