@@ -3,27 +3,27 @@
 ## Problem 1: Test Cases Design and Automation Test 
 - Page test: https://raksul.github.io/recruit-qa-engineer-work-sample/
 
-| Automation Tag        | Scenario                                                                                 | Purpose                                                               | Status |
-| --------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------ |
-| @main                 | As a user, I can submit form                                                             | Verify the main flow                                                  | PASS   |
-| @invalidEmail         | As a user, I get a notice when I input an invalid email                                  | Verify the email validation                                           | PASS   |
-| @emptyEmail           | As a user, I get a notice when I input an empty email                                    | Verify the email validation                                           | PASS   |
-| @emptyLastName        | As a user, I get a notice when I input an empty last name                                | Verify the last name validation                                       | PASS   |
-| @emptyFirstName       | As a user, I get a notice when I input an empty first name                               | Verify the first name validation                                      | PASS   |
-| @emptyInfoSource      | As a user, I get a notice when I do not select info source                               | Verify the info source validation                                     | PASS   |
-| @emptyAssociation     | As a user, I get a notice when I do not select association                               | Verify the association validation                                     | PASS   |
-| @emptyInterestSevices | As a user, I get a notice when I do not select interest services                         | Verify the interest services validation                               | PASS   |
-|                       | As a user, I can select multiple interest services                                       | Verify the multiple selection of interest services                    | PASS   |
-|                       | As a user, I can input 1000 characters in the email input field                          | Verify the limitation of charaters entered in the email               | ----   |
-|                       | As a user, I get a notice when I input 1001 characters in the email input field          | Verify the limitation of charaters entered in the email               | ----   |
-|                       | As a user, I can input 1000 characters in the last name input field                      | Verify the limitation of charaters entered in the last name           | ----   |
-|                       | As a user, I get a notice when I input 1001 characters in the last name input field      | Verify the limitation of charaters entered in the last name           | ----   |
-|                       | As a user, I can input 1000 characters in the first name input field                     | Verify the limitation of charaters entered in the first name          | ----   |
-|                       | As a user, I get a notice when I input 1001 characters in the first name field           | Verify the limitation of charaters entered in the first name          | ----   |
-|                       | As a user, I can input 10000 characters in the expanation textarea                       | Verify the limitation of charaters entered in the expanation textarea | ----   |
-|                       | As a user, I get a notice when I input 10001 characters in the expanation textarea       | Verify the limitation of charaters entered in the expanation textarea | ----   |
-|                       | As a user, I get a notice when I input a special character in the last name input field  | Verify the last name validation                                       | ----   |
-|                       | As a user, I get a notice when I input a special character in the first name input field | Verify the first name validation                                      | ----   |
+| Automation Tag        | Scenario                                                                                 | Purpose                                                                 | Status |
+| --------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------ |
+| @main                 | As a user, I can submit form                                                             | Verify the main flow                                                    | PASS   |
+| @invalidEmail         | As a user, I get a notice when I input an invalid email                                  | Verify the email validation                                             | PASS   |
+| @emptyEmail           | As a user, I get a notice when I input an empty email                                    | Verify the email validation                                             | PASS   |
+| @emptyLastName        | As a user, I get a notice when I input an empty last name                                | Verify the last name validation                                         | PASS   |
+| @emptyFirstName       | As a user, I get a notice when I input an empty first name                               | Verify the first name validation                                        | PASS   |
+| @emptyInfoSource      | As a user, I get a notice when I do not select info source                               | Verify the info source validation                                       | PASS   |
+| @emptyAssociation     | As a user, I get a notice when I do not select association                               | Verify the association validation                                       | PASS   |
+| @emptyInterestSevices | As a user, I get a notice when I do not select interest services                         | Verify the interest services validation                                 | PASS   |
+|                       | As a user, I can select multiple interest services                                       | Verify the multiple selection of interest services                      | PASS   |
+|                       | As a user, I can input 1000 characters in the email input field                          | Verify the limitation of characters entered in the email                | ----   |
+|                       | As a user, I get a notice when I input 1001 characters in the email input field          | Verify the limitation of characters entered in the email                | ----   |
+|                       | As a user, I can input 1000 characters in the last name input field                      | Verify the limitation of characters entered in the last name            | ----   |
+|                       | As a user, I get a notice when I input 1001 characters in the last name input field      | Verify the limitation of characters entered in the last name            | ----   |
+|                       | As a user, I can input 1000 characters in the first name input field                     | Verify the limitation of characters entered in the first name           | ----   |
+|                       | As a user, I get a notice when I input 1001 characters in the first name field           | Verify the limitation of characters entered in the first name           | ----   |
+|                       | As a user, I can input 10000 characters in the explanation textarea                      | Verify the limitation of characters entered in the explanation textarea | ----   |
+|                       | As a user, I get a notice when I input 10001 characters in the explanation textarea      | Verify the limitation of characters entered in the explanation textarea | ----   |
+|                       | As a user, I get a notice when I input a special character in the last name input field  | Verify the last name validation                                         | ----   |
+|                       | As a user, I get a notice when I input a special character in the first name input field | Verify the first name validation                                        | ----   |
 
 ## Problem 2: Specification understanding and scheduling
 
